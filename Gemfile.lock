@@ -106,6 +106,8 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.4-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.15.4-x86_64-linux)
+      racc (~> 1.4)
     pg (1.5.4)
     psych (5.1.0)
       stringio
@@ -149,6 +151,7 @@ GEM
     reline (0.3.8)
       io-console (~> 0.5)
     sqlite3 (1.6.5-x86_64-darwin)
+    sqlite3 (1.6.5-x86_64-linux)
     stringio (3.0.8)
     thor (1.2.2)
     timeout (0.4.0)
@@ -161,6 +164,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   debug
