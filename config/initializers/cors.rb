@@ -7,11 +7,11 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins "https://blog-post-frontend-one.vercel.app/"# Adjust this to your React frontend's address//
-
+    origins "https://blog-post-frontend-one.vercel.app"
+    
     resource "*",
       headers: :any,
-      methods: [:get, :post, :put, :patch, :delete, :options, :head],
-      credentials: true
+      methods: [:get, :post, :put, :patch, :delete, :options, :head]
   end
 end
+
