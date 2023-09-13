@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins "http://localhost:3000"# Adjust this to your React frontend's address//
+    origins "https://blog-post-frontend-one.vercel.app/"# Adjust this to your React frontend's address//
 
     resource "*",
       headers: :any,
