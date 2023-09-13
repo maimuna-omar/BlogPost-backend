@@ -1,8 +1,8 @@
 # app/controllers/posts_controller.rb
 
 class PostsController < ApplicationController
-    # before_action :set_post, only: [:show, :update, :destroy]
-    before_action :authenticate_request!, except: [:index, :show]
+     before_action :set_post, only: [:show, :update, :destroy]
+    # before_action :authenticate_request!, except: [:index, :show]
 
     def index
       posts = Post.all
